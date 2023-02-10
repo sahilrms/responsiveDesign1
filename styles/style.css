@@ -1,0 +1,158 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    background-color: #111827;
+    color: #ffffff;
+   
+}
+body{
+    max-width:67%;
+    /* border:5px solid white;  */
+}
+.ham{
+    display: none;
+}
+header ul{
+    display:flex;
+    justify-content: right;
+    gap:8px;
+    list-style: none;
+    margin-bottom: 16px;
+    margin-top: 5px;
+    height: 40px;
+
+}
+#home{
+  padding:2px 12px;
+  border:none;
+  border-radius: 10px;
+  background-color: #008CBA;;  
+}
+a{
+    text-decoration: none;
+}
+
+.section {
+display:flex;
+justify-content:center;
+align-items: center;
+}
+.hand-img{
+    height:20px;
+}
+
+.logo{
+    height:10px;
+    
+}
+
+.pc-img{
+    height:250px;
+}
+
+.img{
+    height:100px;
+}
+
+.waving{
+    display: flex;
+    font-size:12px;
+}
+
+#dev{
+    font-size: 12px;
+}
+
+.pro{
+    margin-top: 10px;
+    display: flex;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+ .img-text{
+    display: inline-block;
+    justify-items: center;
+    align-items: center;
+    
+    } 
+
+.img-text p{
+    font-size: 8px;
+    margin-left: 30px;
+}
+
+.con{
+    margin-left: 40%;
+    font-size: 10px;
+    margin-top: 10px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+
+}
+.logos{
+ margin-left: 35px;   
+}
+
+.con h1 div{
+ height: 2px;
+ background-color: blue;
+ margin:1px 0px 5px 0px;
+ width:99px;   
+}
+.blue-line{
+    background-color: blue;
+    height: 1px;
+    width:80px
+}
+
+@media screen and (max-width:470px) {
+    *{
+        margin:0px;
+        padding:0px;
+        box-sizing: border-box;
+    }
+    header ul{
+        display: none;
+    }
+    .ham{
+        height:20px;
+        display: inline;
+        margin: 3px 0px 5px 5px;
+    }
+    body{
+        display:flex;
+        /* justify-content: center;
+        align-content: center; */
+    }
+
+    .section{
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+        justify-content: center;
+    }
+    .pc-img{
+        height: 100px;
+        margin-top: 20px;
+    }
+
+    .pro,.img-text{
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+        
+    }
+
+    .img-text p{
+        margin-left: -6px;
+    }
+    
+}
